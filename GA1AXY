@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Certification & Training Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .card {
+            background-color: #fff;
+            flex: 1 1 300px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        .card h2 {
+            margin-top: 0;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 40px;
+        }
+        @media (max-width: 768px) {
+            .services {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AI Certification & Training Services</h1>
+        <nav>
+            <a href="#certifications">Certifications</a>
+            <a href="#training">Training Programs</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="certifications">
+            <h2>My AI Certifications</h2>
+            <ul>
+                <li>Certified AI Specialist</li>
+                <li>Deep Learning Expert</li>
+                <li>Machine Learning Professional</li>
+                <li>Neural Networks Certification</li>
+                <li>Natural Language Processing (NLP) Specialist</li>
+            </ul>
+        </section>
+
+        <section id="training">
+            <h2>Training Programs</h2>
+            <div class="services">
+                <div class="card">
+                    <h3>Beginner AI Course</h3>
+                    <p>Learn the fundamentals of AI, machine learning, and data science.</p>
+                </div>
+                <div class="card">
+                    <h3>Advanced Deep Learning</h3>
+                    <p>Master neural networks, CNNs, RNNs, and more advanced AI techniques.</p>
+                </div>
+                <div class="card">
+                    <h3>Natural Language Processing</h3>
+                    <p>Specialized training in NLP techniques and applications.</p>
+                </div>
+                <div class="card">
+                    <h3>Customized Corporate Training</h3>
+                    <p>Tailored AI training programs for your team or organization.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Interested in my services? Reach out at <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
